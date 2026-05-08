@@ -5,6 +5,14 @@ numpy>=1.24.0
 pytesseract>=0.3.10
 Pillow>=10.0.0
 
+# Bilingual OCR — PaddleOCR (English primary engine)
+# Install CPU build; use paddlepaddle-gpu for CUDA systems
+paddlepaddle>=2.6.0
+paddleocr>=2.8.0
+# Malayalam Tesseract language pack (system-level):
+#   sudo apt install tesseract-ocr-mal
+# Or copy mal.traineddata to your TESSDATA_DIR folder (see config.py)
+
 # Arduino serial
 pyserial>=3.5
 

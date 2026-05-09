@@ -13,6 +13,15 @@ TESSERACT_PSM_SPARSE = 11          # sparse text (page numbers)
 OCR_WARP_SIZE = (1600, 2200)
 MIN_PAGE_AREA_RATIO = 0.25
 
+# ---------- Bilingual OCR (PaddleOCR + Malayalam fallback) ----------
+PADDLE_ENABLED = True              # set False to skip PaddleOCR (English-only, lighter)
+PADDLE_USE_GPU = False             # set True if CUDA is available
+MALAYALAM_ENABLED = True           # set False to disable Tesseract Malayalam fallback
+TESSDATA_DIR = ""                  # path to tessdata dir; "" = system default
+# Confidence thresholds for dynamic engine switching
+OCR_HIGH_CONF = 0.80               # above this → accept PaddleOCR result directly
+OCR_LOW_CONF  = 0.60               # below this → hard-switch to Malayalam Tesseract
+
 # ---------- Gemma (Ollama — local) ----------
 OLLAMA_URL = "http://localhost:11434"
 GEMMA_MODEL = "gemma2:2b"          # use "gemma3:1b" on 4GB Pi

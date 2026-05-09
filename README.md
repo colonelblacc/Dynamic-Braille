@@ -12,10 +12,7 @@
 ### Braille Cell Servo Assembly
 ![Braille cell - servo assembly](docs/Images/braille_cell.jpeg)
 
-### Alpabet Refreshing
-<video src="docs/Images/alphabet_refresh.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+
 
 ### Full System Working Flow
 <video src="docs/Images/Working_Flow.mp4" controls="controls" style="max-width: 100%;">

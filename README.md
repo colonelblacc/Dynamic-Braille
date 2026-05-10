@@ -15,14 +15,12 @@
 
 
 ### Full System Working Flow
-<video src="https://youtube.com/shorts/mgscIVhc7ok?si=QZOkevGtk4GB9Ei2" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+[![Watch: DynaBraille Full System Demo](https://img.youtube.com/vi/Nej_g_eKN2o/maxresdefault.jpg)](https://youtube.com/shorts/Nej_g_eKN2o)
+> 📺 Click the thumbnail above to watch the full system working demo on YouTube.
 
 ### Dynamic Braille Cell Loading Alphabets
-<video src="docs/Images/Disaplay_loads_Alpabets.mp4" controls="controls" style="max-width: 100%;">
-  Your browser does not support the video tag.
-</video>
+[![Watch: Braille Cell Loading Alphabets](https://img.youtube.com/vi/mgscIVhc7ok/maxresdefault.jpg)](https://youtube.com/shorts/mgscIVhc7ok)
+> 📺 Click the thumbnail above to watch the Braille cell cycle through alphabets on YouTube.
 
 ---
 

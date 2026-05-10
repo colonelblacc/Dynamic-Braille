@@ -33,3 +33,9 @@ branch1/
 
 # Logs
 *.log
+
+# CAD tool temporary / backup files
+*.f3d.bak
+*.~lock.*
+cad/exports/*          # exported files are re-generated; don't commit them
+!cad/exports/.gitkeep  # but keep the folder itself tracked

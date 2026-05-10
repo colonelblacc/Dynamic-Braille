@@ -1,0 +1,38 @@
+# Git LFS tracking for CAD and binary design files
+# Run `git lfs install` once before pushing if you have large files.
+
+# Fusion 360
+*.f3d filter=lfs diff=lfs merge=lfs -text
+
+# STEP / IGES (universal exchange)
+*.step filter=lfs diff=lfs merge=lfs -text
+*.stp  filter=lfs diff=lfs merge=lfs -text
+*.iges filter=lfs diff=lfs merge=lfs -text
+*.igs  filter=lfs diff=lfs merge=lfs -text
+
+# STL (3D printing)
+*.stl  filter=lfs diff=lfs merge=lfs -text
+
+# DXF (2D profiles / laser cutting)
+*.dxf  filter=lfs diff=lfs merge=lfs -text
+
+# KiCad / EasyEDA PCB
+*.kicad_pcb filter=lfs diff=lfs merge=lfs -text
+*.kicad_sch filter=lfs diff=lfs merge=lfs -text
+*.sch       filter=lfs diff=lfs merge=lfs -text
+
+# Gerber / fabrication files
+*.gbr    filter=lfs diff=lfs merge=lfs -text
+*.gerber filter=lfs diff=lfs merge=lfs -text
+*.gbl    filter=lfs diff=lfs merge=lfs -text
+*.gtl    filter=lfs diff=lfs merge=lfs -text
+*.gbs    filter=lfs diff=lfs merge=lfs -text
+*.gts    filter=lfs diff=lfs merge=lfs -text
+*.gbo    filter=lfs diff=lfs merge=lfs -text
+*.gto    filter=lfs diff=lfs merge=lfs -text
+*.exc    filter=lfs diff=lfs merge=lfs -text
+*.drl    filter=lfs diff=lfs merge=lfs -text
+
+# SolidWorks / generic CAD
+*.sldprt filter=lfs diff=lfs merge=lfs -text
+*.sldasm filter=lfs diff=lfs merge=lfs -text

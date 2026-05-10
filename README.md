@@ -15,11 +15,15 @@
 
 
 ### Full System Working Flow
+
 [![Watch: DynaBraille Full System Demo](https://img.youtube.com/vi/Nej_g_eKN2o/maxresdefault.jpg)](https://youtube.com/shorts/Nej_g_eKN2o)
+
 > 📺 Click the thumbnail above to watch the full system working demo on YouTube.
 
 ### Dynamic Braille Cell Loading Alphabets
+
 [![Watch: Braille Cell Loading Alphabets](https://img.youtube.com/vi/mgscIVhc7ok/maxresdefault.jpg)](https://youtube.com/shorts/mgscIVhc7ok)
+
 > 📺 Click the thumbnail above to watch the Braille cell cycle through alphabets on YouTube.
 
 ---

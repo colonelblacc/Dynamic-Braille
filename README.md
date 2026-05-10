@@ -15,7 +15,7 @@
 
 
 ### Full System Working Flow
-<video src="docs/Images/Working_Flow.mp4" controls="controls" style="max-width: 100%;">
+<video src="https://youtube.com/shorts/mgscIVhc7ok?si=QZOkevGtk4GB9Ei2" controls="controls" style="max-width: 100%;">
   Your browser does not support the video tag.
 </video>
 
